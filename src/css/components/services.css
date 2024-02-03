@@ -1,0 +1,29 @@
+/* services.css */
+
+.services-section {
+  padding: 50px;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.services-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-section li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.services-section li::before {
+  content: "\2022"; /* Utilisation d'un point de liste */
+  color: #007bff; /* Couleur du point de liste */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; /* Décalage du point de liste */
+}

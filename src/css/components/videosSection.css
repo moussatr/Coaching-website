@@ -1,0 +1,41 @@
+/* videosSection.css */
+
+.videos-section {
+  padding: 50px;
+}
+
+.videos-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Distribue les éléments en colonnes égales */
+  gap: 20px; /* Espacement entre les éléments */
+}
+
+.video-item {
+  position: relative; /* Position relative pour les contenus absolus */
+}
+
+.video-item iframe {
+  width: 100%;
+  height: 200px;
+  border: 0;
+}
+
+.video-item p {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  font-size: 1rem;
+}

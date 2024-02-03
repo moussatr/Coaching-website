@@ -1,0 +1,34 @@
+/* testimonials.css */
+
+.testimonials-section {
+  padding: 50px;
+}
+
+.testimonials-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.testimonials-section blockquote {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.testimonials-section blockquote::before {
+  content: "\201C"; /* Ajoute un guillemet ouvrant stylisé */
+  font-size: 3rem;
+  color: #007bff; /* Couleur du texte */
+  margin-right: 10px;
+}
+
+.testimonials-section blockquote::after {
+  content: "\201D"; /* Ajoute un guillemet fermant stylisé */
+  font-size: 3rem;
+  color: #007bff; /* Couleur du texte */
+  margin-left: 10px;
+}
+
+.testimonials-section cite {
+  font-style: normal;
+  font-weight: bold;
+}
