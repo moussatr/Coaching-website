@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e87fb90.css",
-    "main.js": "/static/js/main.4e794674.js",
-    "static/js/787.f05f5e82.chunk.js": "/static/js/787.f05f5e82.chunk.js",
-    "static/media/brochure.pdf": "/static/media/brochure.d10700115b4b5587095e.pdf",
-    "static/media/fond-ecran.jpg": "/static/media/fond-ecran.0caec6d8ac2066d9f440.jpg",
-    "index.html": "/index.html",
-    "main.2e87fb90.css.map": "/static/css/main.2e87fb90.css.map",
-    "main.4e794674.js.map": "/static/js/main.4e794674.js.map",
-    "787.f05f5e82.chunk.js.map": "/static/js/787.f05f5e82.chunk.js.map"
+    "main.css": "/Coaching-website/static/css/main.2e87fb90.css",
+    "main.js": "/Coaching-website/static/js/main.f1475ee3.js",
+    "static/js/787.f05f5e82.chunk.js": "/Coaching-website/static/js/787.f05f5e82.chunk.js",
+    "static/media/brochure.pdf": "/Coaching-website/static/media/brochure.d10700115b4b5587095e.pdf",
+    "static/media/fond-ecran.jpg": "/Coaching-website/static/media/fond-ecran.0caec6d8ac2066d9f440.jpg",
+    "index.html": "/Coaching-website/index.html",
+    "main.2e87fb90.css.map": "/Coaching-website/static/css/main.2e87fb90.css.map",
+    "main.f1475ee3.js.map": "/Coaching-website/static/js/main.f1475ee3.js.map",
+    "787.f05f5e82.chunk.js.map": "/Coaching-website/static/js/787.f05f5e82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e87fb90.css",
-    "static/js/main.4e794674.js"
+    "static/js/main.f1475ee3.js"
   ]
 }
