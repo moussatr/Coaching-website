@@ -1,4 +1,6 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import illustrationImage from "../images/fond-ecran.jpg";
 import "../css/components/heroSection.css"; // Importez votre fichier CSS
 import { Link } from "react-router-dom";
