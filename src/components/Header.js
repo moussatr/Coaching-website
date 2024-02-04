@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <header class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
@@ -34,29 +34,29 @@ const Header = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+                <Link class="nav-link active" aria-current="page" to="/">
                   Accueil
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <Link className="nav-link" to="/about">
                   À propos
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/services">
+                <Link className="nav-link" to="/services">
                   Services
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
+      </header>
     </>
   );
 };
