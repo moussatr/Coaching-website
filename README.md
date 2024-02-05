@@ -1,6 +1,4 @@
-# Visualisez le site en live 
-
-This project was bootstrapped with [Coaching Web Site](https://moussatr.github.io/Coaching-website/).
+# Visualisez le site en ligne en cliquant ici  [Coaching Web Site](https://moussatr.github.io/Coaching-website/).
 
 ## Available Scripts
 
