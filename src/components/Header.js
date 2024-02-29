@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <header class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/Coaching-website">
             <img
               src={logo}
               class="navbar-brand"
